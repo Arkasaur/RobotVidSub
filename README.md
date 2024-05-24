@@ -5,7 +5,7 @@ RobotVidSub is a library designed to enhance the debugging and presentation of a
 ## Features
 
 - **Video Recording**: Automatically starts and stops video recording, either for all tests (if a global `RECORDING` variable is set to string value `true`), or for individual tests (any test with the tag `recording` will be recorded)
-- **Subtitles**: Adds subtitles to the videos, showing the top-level keywords being executed.
+- **Subtitles**: Adds subtitles to the videos, displaying the top-level keywords being executed.
 
 ## Installation
 
@@ -17,7 +17,16 @@ pip install robotvidsub
 ```
 ## Usage
 
-Once installed, RobotVidSub automatically integrates with your Robot Framework tests. Ensure that the RECORDING variable is set to true in your Robot Framework environment to enable video recording of all tests. If instead you want only particular tests to be recorded, add `recording` tag to these test cases.
+Once installed, RobotVidSub automatically integrates with your Robot Framework tests. To enable RobotVidSub on your tests, make sure the `RobotVidSub.RobotVidSubListener` listener is referenced at the time of test execution:
+```
+# Run tests with listener enabled - RobotVidSub.RobotVidSubListener
+
+robot --outputdir=reports --listener=RobotVidSub.RobotVidSubListener Tests/AllTestsRun.robot
+```
+
+Ensure that the RECORDING variable is set to true in your Robot Framework environment to enable video recording of all tests. If instead you want only particular tests to be recorded, add `recording` tag to these test cases.
+
+All recordings are stored in the `recordings` folder under your parent test folder, with the name format of `{TestCaseId}_{ExecutionStartDateTime}`
 
 ## Requirements
 

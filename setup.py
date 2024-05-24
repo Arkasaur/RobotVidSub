@@ -13,7 +13,7 @@ setup(
     install_requires=[
         "robotframework >= 3.0",
         "ffmpeg-python",
-        "ScreenCapLibrary"
+        "robotframework-screencaplibrary"
     ],
     classifiers=[
         "Programming Language :: Python",
