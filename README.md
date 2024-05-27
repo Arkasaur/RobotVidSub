@@ -56,8 +56,11 @@ pip install --upgrade robotframework-seleniumlibrary
 
 ## Example Results
 
-https://github.com/Arkasaur/RobotVidSub/assets/119039702/9e184493-2f91-4068-8e04-66a8cd11b9a5
-https://github.com/Arkasaur/RobotVidSub/assets/119039702/30ae9723-9751-4f55-9e6b-e7660a5ad0f4
+https://github.com/Arkasaur/RobotVidSub/assets/119039702/6f019308-8a75-4703-8aac-50eeb420fb8b
+
+
+https://github.com/Arkasaur/RobotVidSub/assets/119039702/0a3d95f9-0c85-4805-8115-e485bae537fd
+
 
 
 
