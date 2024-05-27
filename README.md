@@ -54,13 +54,11 @@ The recommended installation method is using pip:
 pip install --upgrade robotframework-seleniumlibrary
 ```
 
-## Preview
+## Example Results
 
+https://github.com/Arkasaur/RobotVidSub/assets/119039702/9e184493-2f91-4068-8e04-66a8cd11b9a5
+https://github.com/Arkasaur/RobotVidSub/assets/119039702/30ae9723-9751-4f55-9e6b-e7660a5ad0f4
 
-
-https://github.com/Arkasaur/RobotVidSub/assets/119039702/96371594-3dbc-4c51-a481-c42e18899d02
-
-https://github.com/Arkasaur/RobotVidSub/assets/119039702/b55bba60-5e5e-4dc3-83e4-a3fb77cd4b5f
 
 
 
