@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='robotvidsub',
+    name='RobotVidSub',
     version='0.1.0',
     author='Arka Mitra',
     author_email='arkamitra172@gmail.com',
     packages=find_packages(),
-    url='http://pypi.python.org/pypi/robotvidsub/',
+    url='https://github.com/Arkasaur/RobotVidSub',
     license='LICENSE.txt',
     description='Enhance Robot Framework tests by recording and subtitling videos.',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     install_requires=[
         "robotframework >= 3.0",
         "ffmpeg-python",
@@ -19,7 +20,9 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Framework :: Robot Framework",
-        "Topic :: Software Development :: Testing"
+        "Topic :: Software Development :: Testing",
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
     entry_points={
         'robotframework_listener': [
